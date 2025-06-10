@@ -55,6 +55,16 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+		<grupoId>org.springframework.boot</grupoId>
+		<artifactId>spring-boot-starter-webflux</artifactId>
+		<scope>test</scope>
+		</dependency>
+		<dependency>
+		<grupoId>com.h2database</grupoId>
+		<artifactId>h2</artifactId>
+		<scope>runtime</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
